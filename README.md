@@ -1,7 +1,7 @@
 <div>
 <img src="logo.jpg" align="left" style="margin: 10 10 10 10;" height="150px">
 	<h1>nBEST</h1>
-<blockquote> The non-human primates Brain Extraction and Segmentation Toolbox (nBEST) for preprocessing NHPs from multi-species, multi-site, and multi-developmental stages
+<blockquote> A convenient, precise, and fully automated AI pipeline called non-human primates Brain Extraction and Segmentation Toolbox (nBEST) for preprocessing NHPs from multi-species, multi-site, and multi-developmental stages.
 </blockquote>
 </div>
 <br />
@@ -9,7 +9,7 @@
 <hr />
 
 # Introduction
-A convenient, precise, and fully automated AI pipeline called non-human primates Brain Extraction and Segmentation Toolbox (nBEST) for preprocessing NHPs from multi-species, multi-site, and multi-developmental stages. We aim to continually update it via lifelong learning using newly added data. This approach guarantees that nBEST will remain pertinent and effective as new data becomes available, providing a reliable resource.
+This ```README``` illustrates how to install and run the Docker version of the nBEST pipeline. We aim to continually update it via lifelong learning using newly added data. This approach guarantees that nBEST will remain pertinent and effective as new data becomes available, providing a reliable resource.
 ![](https://github.com/TaoZhong11/nBEST/blob/main/nBEST_overview.jpg)
 
 # System requirement
