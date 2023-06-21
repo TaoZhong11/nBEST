@@ -90,4 +90,10 @@ After the processing is finished, in the "mounted" folder ```data_folder```, all
 * ```brain_cerebrum_mask/```: The cerebrum mask of raw image.
 * ```brain_tissue/```: The cerebrum tissue segmentation.
 
+# Contacts
+The nBEST software is developed by the Southern Medical University, China.
+For questions/bugs/feedback, please contact:
+Tao Zhong, Ph.D., taozh2315@gmail.com
+School of Biomedical Engineering
+Southern Medical University, China
 
