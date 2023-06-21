@@ -54,14 +54,14 @@ After downloading, you can use ```docker images``` to see the container images y
 
 # Running the pipeline container
 ## Get the free license
-The container is totally free. Please first contact taozh2315@gmail.com to get a free license. Then create a folder (License), and put the License.txt into this folder.
+The container is totally free. Please first contact taozh2315@gmail.com to get a free license. Then create a folder (License), and put the ```License.txt``` into this folder.
 
 ## Run the pipeline
 ### Demo ###
-Some examples from multi-species NHPs have been provided in demo/data. Run the demo and see results in demo/:
+Some examples from multi-species NHPs have been provided in ```demo/data```. Run the demo and see results in ```demo/```:
 ```docker run -it --gpus=all --ipc=host wxyabc/nbest:1.0```
 ### Preprocess your own T1w raw data ###
-Create a directory (data_folder), which will be mounted to the container. Run:
+Create a directory ```data_folder```, which will be mounted to the container. Run:
 ```docker run -it --gpus=all --ipc=host -v /datafolder:/workspace/demo/data -v /License:/workspace/demo/License wxyabc/nbest:1.0 cd /demo python preprocess_all.py```
 
 
