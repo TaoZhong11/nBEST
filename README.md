@@ -51,7 +51,7 @@ If succeeded, the output should be the GPU card information on your PC.
 Run 
 ```
 docker pull wxyabc/nbest:1.0
-. 
+```
 
 After downloading, you can use ```docker images``` to see the container images you have downloaded.
 
