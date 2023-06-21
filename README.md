@@ -10,7 +10,7 @@
 
 # Introduction
 This ```README``` illustrates how to install and run the Docker version of the nBEST pipeline. We aim to continually update it via lifelong learning using newly added data. This approach guarantees that nBEST will remain pertinent and effective as new data becomes available, providing a reliable resource.
-![](https://github.com/TaoZhong11/nBEST/blob/main/nBEST_overview.jpg)
+![](https://github.com/TaoZhong11/nBEST/blob/main/nBEST_pipeline.jpg)
 
 # System requirement
 Since this is a *Linux* based container, please install the container on a Linux system. The supported systems include but not limited to `Ubuntu`, `Debian`, `CentOS` and `Red Hat`. 
