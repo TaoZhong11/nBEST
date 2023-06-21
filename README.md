@@ -92,6 +92,7 @@ After the processing is finished, in the "mounted" folder ```data_folder```, all
 
 # Contacts
 The nBEST software is developed by the Southern Medical University, China.
+
 For questions/bugs/feedback, please contact:
 
 Tao Zhong, Ph.D., taozh2315@gmail.com\
