@@ -65,10 +65,18 @@ Some examples from multi-species NHPs have been provided in ```demo/data```. Run
 ```
 docker run -it --gpus=all --ipc=host wxyabc/nbest:1.0
 ```
-### Preprocess your own T1w raw data ###
+### Try your own T1w raw data ###
 Create a directory ```data_folder```, which will be mounted to the container. Run:
 ```
 docker run -it --gpus=all --ipc=host -v /datafolder:/workspace/demo/data -v /License:/workspace/demo/License wxyabc/nbest:1.0 cd /demo python preprocess_all.py
 ```
+
+### Output illustration ###
+After the processing is finished, in the "mounted" folder ```data_folder```, all the processing results will be generated. The following explains what the results are: 
+* ```brain_img/```:	The skull stripped brain image.
+* ```brain_mask/```: The brain mask of raw image.
+* ```brain_cerebrum/```: The cerebrum (remove cerebellum and brainstem from brain image) image.
+* ```brain_cerebrum_mask/```: The cerebrum mask of raw image.
+* ```brain_tissue/```: The cerebrum tissue segmentation.
 
 
