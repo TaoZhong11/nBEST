@@ -16,6 +16,8 @@ This ```README``` illustrates how to install and run the Docker version of the n
 
 ![](https://github.com/TaoZhong11/nBEST/blob/main/nBEST_pipeline.jpg)
 
+![](https://github.com/TaoZhong11/nBEST/blob/main/result.jpg)
+
 # System requirement
 Since this is a *Linux* based container, please install the container on a Linux system. The supported systems include but not limited to `Ubuntu`, `Debian`, `CentOS` and `Red Hat`. 
 
