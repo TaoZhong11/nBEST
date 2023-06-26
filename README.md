@@ -67,7 +67,7 @@ If succeeded, the output should be the GPU card information on your PC.
 
 Run 
 ```
-docker pull wxyabc/nbest:1.0
+docker pull wxyabc/nbest:1.1
 ```
 
 After downloading, you can use ```docker images``` to see the container images you have downloaded.
@@ -80,12 +80,15 @@ The container is totally free. Please first contact taozh2315@gmail.com to get a
 ### Demo ###
 Some examples from multi-species NHPs have been provided in ```demo/data```. Run the demo and see results in ```demo/```:
 ```
-docker run -it --gpus=all --ipc=host wxyabc/nbest:1.0
+docker run -it --gpus=all --ipc=host wxyabc/nbest:1.1
 ```
 ### Try your own T1w raw data ###
 Create a directory ```data_folder```, which will be mounted to the container. Run:
 ```
-docker run -it --gpus=all --ipc=host -v /datafolder:/workspace/demo/data -v /License:/workspace/demo/License wxyabc/nbest:1.0 cd /demo python preprocess_all.py
+docker run -it --gpus=all --ipc=host -v /datafolder:/workspace/demo/data -v /License:/workspace/demo/License wxyabc/nbest:1.1
+cd /demo
+python preprocess_all.py
+docker cp containerID:/workspace/demo/brain_tissue /Your_folder
 ```
 
 ### Output illustration ###
