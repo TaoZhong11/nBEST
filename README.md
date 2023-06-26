@@ -88,7 +88,6 @@ Create a directory ```data_folder```, which will be mounted to the container. Ru
 docker run -it --gpus=all --ipc=host -v /datafolder:/workspace/demo/data -v /License:/workspace/demo/License wxyabc/nbest:1.1
 cd /demo
 python preprocess_all.py
-docker cp containerID:/workspace/demo/brain_tissue /Your_folder
 ```
 
 ### Output illustration ###
