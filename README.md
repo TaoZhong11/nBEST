@@ -84,7 +84,7 @@ docker run -it --gpus=all --ipc=host wxyabc/nbest:1.1
 ### Try your own T1w raw data ###
 Create a directory ```data_folder```, which will be mounted to the container. Run:
 ```
-docker run -it --gpus=all --ipc=host -v /datafolder:/workspace/demo/data -v /License:/workspace/demo/License wxyabc/nbest:1.1
+docker run -it --gpus=all --ipc=host -v /datafolder:/workspace/demo/data  wxyabc/nbest:1.1
 cd /demo
 python preprocess_all.py
 ```
