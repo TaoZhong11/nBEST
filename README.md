@@ -73,8 +73,7 @@ docker pull wxyabc/nbest:1.1
 After downloading, you can use ```docker images``` to see the container images you have downloaded.
 
 # Running the pipeline container
-## Get the free license
-The container is totally free. Please first contact taozh2315@gmail.com to get a free license. Then create a folder (License), and put the ```License.txt``` into this folder.
+
 
 ## Run the pipeline
 ### Demo ###
