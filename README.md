@@ -9,7 +9,11 @@
 <hr />
 
 # Introduction
-This ```README``` illustrates how to install and run the Docker version of the nBEST pipeline. We aim to continually update it via lifelong learning using newly added data. This approach guarantees that nBEST will remain pertinent and effective as new data becomes available, providing a reliable resource.
+This ```README``` illustrates how to install and run the Docker version of the nBEST pipeline. We aim to continually update it via lifelong learning using newly added data. This approach guarantees that nBEST will remain pertinent and effective as new data becomes available, providing a reliable resource. The nBEST works out-of-the-box without any retraining, and is also robust to:
+* a dozen species, including macaque, chimpanzee, marmoset, etc.
+* raw scans with or without preprocessing: bias field correction, re-orientation, normalization, etc.
+* iso-intensity scans.
+
 ![](https://github.com/TaoZhong11/nBEST/blob/main/nBEST_pipeline.jpg)
 
 # System requirement
