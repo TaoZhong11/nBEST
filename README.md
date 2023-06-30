@@ -80,12 +80,14 @@ After downloading, you can use ```docker images``` to see the container images y
 Some examples from multi-species NHPs have been provided in ```demo/data```. Run the demo and see results in ```demo/```:
 ```
 docker run -it --gpus=all --ipc=host wxyabc/nbest:1.1.1
+cd demo
+python preprocess_all.py
 ```
 ### Try your own T1w raw data ###
 Create a directory ```data_folder```, which will be mounted to the container. Run:
 ```
-docker run -it --gpus=all --ipc=host -v /datafolder:/workspace/demo/data  wxyabc/nbest:1.1.1
-cd /demo
+docker run -it --gpus=all --ipc=host -v /absolute/path/to/datafolder:/workspace/demo/data  wxyabc/nbest:1.1.1
+cd demo
 python preprocess_all.py
 ```
 
