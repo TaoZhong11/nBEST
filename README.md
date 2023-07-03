@@ -86,18 +86,21 @@ python preprocess_all.py
 ### Try your own T1w raw data ###
 Create a directory ```data_folder```, which will be mounted to the container. Run:
 ```
-docker run -it --gpus=all --ipc=host -v /absolute/path/to/datafolder:/workspace/demo/data  wxyabc/nbest:1.1.1
+docker run -it --gpus=all --ipc=host -v /absolute/path/to/data_folder:/workspace/demo/data  wxyabc/nbest:1.1.1
 cd demo
 python preprocess_all.py
 ```
 
 ### Output illustration ###
-After the processing is finished, in the "mounted" folder ```data_folder```, all the processing results will be generated. The following explains what the results are: 
+After the processing is finished, in the workspace folder ```demo```, all the processing results will be generated. The following explains what the results are: 
 * ```brain_img/```:	The skull stripped brain image.
 * ```brain_mask/```: The brain mask of raw image.
 * ```brain_cerebrum/```: The cerebrum (remove cerebellum and brainstem from brain image) image.
 * ```brain_cerebrum_mask/```: The cerebrum mask of raw image.
 * ```brain_tissue/```: The cerebrum tissue segmentation.
+* 
+Output the results from the docker container to the host by using
+```docker ps``` to see the ```Container_ID``` and then ```docker cp Container_ID:/workspace/demo/brain_xxx/  /absolute/path/to/any/host_path/```
 
 # Contacts
 The nBEST software is developed by the Southern Medical University, China.
