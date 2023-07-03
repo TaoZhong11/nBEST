@@ -98,7 +98,7 @@ After the processing is finished, in the workspace folder ```demo```, all the pr
 * ```brain_cerebrum/```: The cerebrum (remove cerebellum and brainstem from brain image) image.
 * ```brain_cerebrum_mask/```: The cerebrum mask of raw image.
 * ```brain_tissue/```: The cerebrum tissue segmentation.
-* 
+
 Output the results from the docker container to the host by using
 ```docker ps``` to see the ```Container_ID``` and then ```docker cp Container_ID:/workspace/demo/brain_xxx/  /absolute/path/to/any/host_path/```
 
