@@ -81,14 +81,21 @@ Some examples from multi-species NHPs have been provided in ```demo/data```. Run
 ```
 docker run -it --gpus=all --ipc=host wxyabc/nbest:1.2
 cd demo
-python preprocess_all_bfc.py
+python nBEST.py
 ```
 ### Try your own T1w raw data ###
 Create a directory ```data_folder```, which will be mounted to the container. Run by a new terminal:
 ```
 docker run -it --gpus=all --ipc=host -v /absolute/path/to/data_folder:/workspace/demo/data  wxyabc/nbest:1.2
 cd demo
-python preprocess_all_bfc.py
+```
+If you want to process your data with all three steps (i.e., brain extraction, cerebrum&brainstem removal, and tissue segmentation ), run
+```
+python nBEST.py
+```
+And if you want to process your data without brain extraction (which means your input should be brain images without skull),  run
+```
+python nBEST.py -skip_be
 ```
 
 ### Output illustration ###
