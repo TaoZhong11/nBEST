@@ -111,6 +111,7 @@ Create a new terminal in the host and use ```docker ps``` to see the ```Containe
 
 # Feedback
 We are committed to continuous improvement and value your feedback. To help us enhance our processes, we kindly request you evaluate the processing results by downloading and completing ```nBEST_evaluate.xlsx```. The results are categorized into three levels: Good, Fair, and Poor. Detailed descriptions for each level are provided within the table. Your insights are crucial in helping us and we await your valuable feedback.
+
 Additionally, we welcome the sharing of any brain MRI data from NHPs to continuously update our toolbox. We will strictly adhere to the relevant data usage protocols and provide data contributors with both processed results and manual corrections, leveraging the expertise of our seasoned professionals. We look forward to connecting!
 
 # Contacts
