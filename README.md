@@ -110,7 +110,7 @@ Output the results from the docker container to the host:
 Create a new terminal in the host and use ```docker ps``` to see the ```Container_ID``` and then ```docker cp Container_ID:/workspace/demo/brain_xxx/  /absolute/path/to/any/host_path/```
 
 # Feedback
-We kindly ask users to provide feedback on the evaluation of processing results so that we can further improve our process. The table named ```nBEST_evaluate.xlsx``` can be downloaded and the results are divided into three levels: good, fair and poor, and the relevant details are described in the table. We look forward to user feedback form to our mailbox.
+We are committed to continuous improvement and value your feedback. To help us enhance our processes, we kindly request you evaluate the processing results by downloading and completing ```nBEST_evaluate.xlsx```. The results are categorized into three levels: Good, Fair, and Poor. Detailed descriptions for each level are provided within the table. Your insights are crucial in helping us and we await your valuable feedback.
 
 
 # Contacts
