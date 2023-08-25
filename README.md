@@ -89,7 +89,7 @@ Create a directory ```data_folder```, which will be mounted to the container. Ru
 docker run -it --gpus=all --ipc=host -v /absolute/path/to/data_folder:/workspace/demo/data  wxyabc/nbest:1.2
 cd demo
 ```
-If you want to process your data with all three steps (i.e., brain extraction, cerebrum&brainstem removal, and tissue segmentation ), run
+If you want to process your data with all three steps (i.e., brain extraction, cerebrum&brainstem removal, and tissue segmentation), run
 ```
 python nBEST.py
 ```
