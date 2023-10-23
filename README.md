@@ -5,7 +5,7 @@
 </blockquote>
 </div>
 <br />
-<img src="multi_species_bg.jpg">
+<img src="multi_species_logo.jpg">
 
 <hr />
 
