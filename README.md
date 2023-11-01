@@ -1,7 +1,7 @@
 <div>
 <img src="nBEST_logo.jpg" align="left" style="margin: 10 10 10 10;" height="150px">
 	<h1>nBEST</h1>
-<blockquote> A user-friendly, precise, and fully automated AI pipeline called non-human primates Brain Extraction and Segmentation Toolbox (nBEST) for processing NHPs from multi-species, multi-site, and multi-developmental stages.
+<blockquote> An accurate, adaptable, and automated AI pipeline called non-human primates Brain Extraction and Segmentation Toolbox (nBEST) for processing NHPs from multi-species, multi-site, and multi-developmental stages.
 </blockquote>
 </div>
 <br />
