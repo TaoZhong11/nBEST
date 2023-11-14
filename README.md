@@ -116,8 +116,6 @@ We are committed to continuous improvement and value your feedback. To help us e
 Additionally, we welcome the sharing of any brain MRI data from NHPs to continuously update our toolbox. We will strictly adhere to the relevant data usage protocols and provide data contributors with both processed results and manual corrections, leveraging the expertise of our seasoned professionals. We look forward to connecting!
 
 # Contacts
-The nBEST software is developed by the Southern Medical University, China.
-
 For questions/bugs/feedback, please contact:
 
 Tao Zhong, Ph.D., taozh2315@gmail.com\
