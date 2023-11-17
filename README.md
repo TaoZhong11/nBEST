@@ -86,9 +86,9 @@ cd demo
 python nBEST.py
 ```
 ### Try your own T1w raw data ###
-Create a directory ```data_folder```, which will be mounted to the container. The T1w scans that need to be processed should be in ```data_folder/data/xxxxx.nii.gz```. Run by a new terminal:
+Create a directory, e.g., named ```Macaque_testing_scans```, which will be mounted to the container. The T1w scans that need to be processed should be in ```Macaque_testing_scans/data/xxxxx.nii.gz```. Run by a new terminal:
 ```
-docker run -it --gpus=all --ipc=host -v /absolute/path/to/data_folder:/workspace/demo/  wxyabc/nbest:1.3
+docker run -it --gpus=all --ipc=host -v /absolute/path/to/Macaque_testing_scans:/workspace/demo/  wxyabc/nbest:1.3
 cd demo
 ```
 If you want to process your data with all three steps (i.e., brain extraction, cerebrum&brainstem removal, and tissue segmentation), run
@@ -101,7 +101,7 @@ python nBEST.py -skip_be
 ```
 
 ### Output illustration ###
-Upon completion of the processing, all resulting outputs will be generated and stored in the "demo" directory within the workspace. The following explains what the results are: 
+Upon completion of the processing, all resulting outputs will be generated and stored in the ```Macaque_testing_scans``` directory. The following explains what the results are: 
 * ```brain_img/```:	The skull stripped brain image.
 * ```brain_mask/```: The brain mask of raw image.
 * ```brain_cerebrum/```: The cerebrum (remove cerebellum and brainstem from brain image) image.
