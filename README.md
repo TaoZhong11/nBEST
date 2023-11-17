@@ -108,9 +108,6 @@ Upon completion of the processing, all resulting outputs will be generated and s
 * ```brain_cerebrum_mask/```: The cerebrum mask of raw image.
 * ```brain_tissue/```: The cerebrum tissue segmentation.
 
-%Output the results from the docker container to the host:
-%Create a new terminal in the host and use ```docker ps``` to see the ```Container_ID``` and then ```docker cp Container_ID:/workspace/demo/brain_xxx/  /absolute/path/to/any/host_path/```
-
 # Feedback
 We are committed to continuous improvement and value your feedback. To help us enhance our processes, we kindly request you evaluate the processing results by downloading and completing ```nBEST_evaluate.xlsx```. The results are categorized into three levels: Good, Fair, and Poor. Detailed descriptions for each level are provided within the table. Your insights are crucial in helping us and we await your valuable feedback.
 
