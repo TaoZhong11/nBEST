@@ -81,6 +81,7 @@ After downloading, you can use ```docker images``` to see the container images y
 Some examples from multi-species NHPs have been provided in ```demo/data```. Run the demo and see results in ```demo/``` by a new terminal:
 ```
 docker run -it --gpus=all --ipc=host wxyabc/nbest:1.3
+cp nBEST.py demo/nBEST.py
 cd demo
 python nBEST.py
 ```
