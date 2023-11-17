@@ -81,7 +81,6 @@ After downloading, you can use ```docker images``` to see the container images y
 Some examples from multi-species NHPs have been provided in ```demo/data```. Run the demo and see results in ```demo/``` by a new terminal:
 ```
 docker run -it --gpus=all --ipc=host wxyabc/nbest:1.3
-cp nBEST.py demo/nBEST.py
 cd demo
 python nBEST.py
 ```
@@ -89,6 +88,7 @@ python nBEST.py
 Create a directory, e.g., named ```Macaque_testing_scans```, which will be mounted to the container. The T1w scans that need to be processed should be in ```Macaque_testing_scans/data/xxxxx.nii.gz```. Run by a new terminal:
 ```
 docker run -it --gpus=all --ipc=host -v /absolute/path/to/Macaque_testing_scans:/workspace/demo/  wxyabc/nbest:1.3
+cp nBEST.py demo/nBEST.py
 cd demo
 ```
 If you want to process your data with all three steps (i.e., brain extraction, cerebrum&brainstem removal, and tissue segmentation), run
