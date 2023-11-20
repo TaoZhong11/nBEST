@@ -1,7 +1,8 @@
 # Using nBEST to predict the subcortical structures
 nBEST requires both T1w and T2w MRIs, which have been aligned, to achieve this process.
 Now this beta version only supports Macaque species, which have been validated in both cynomolgus and rhesus.
-All the models and scripts have been updated in version 1.3. 
+All the models and scripts have been updated in version 1.3. Overall the subcortical structures were delineated into bilaterally symmetric 12 classes (each hemisphere includes the thalamus, caudate, putamen, pallidum, hippocampus, and amygdala).
+![](https://github.com/TaoZhong11/nBEST/blob/main/subcortical.jpg)
 
 ## Run the pipeline
 ### Demo ###
