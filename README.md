@@ -9,6 +9,13 @@
 
 <hr />
 
+# New features and updates :star:
+
+11/20/2023: **Subcortical structures** 🐒: \
+nBEST now can provide the prediction of subcortical structures for macaques. See the details and instructions [here](Subcortical.md).
+
+
+
 # Introduction
 This ```README``` illustrates how to install and run the Docker version of the nBEST pipeline. We aim to continually update it via lifelong learning using newly added data. This approach guarantees that nBEST will remain pertinent and effective as new data becomes available, providing a reliable resource. The nBEST works out-of-the-box without any retraining, and is also robust to:
 * more than ten species, including macaque, chimpanzee, marmoset, etc.
