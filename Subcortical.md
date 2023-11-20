@@ -1,5 +1,5 @@
 # Using nBEST to obtain the segmentation of subcortical structures
-nBEST requires both T1w and T2w MRIs, which have been aligned, to achieve this process.
+nBEST requires a pair of aligned T1w and T2w MRIs to achieve this process.
 Now this beta version only supports Macaque species, which have been validated in both cynomolgus and rhesus.
 All the models and scripts have been updated in nBEST-1.3. 
 
