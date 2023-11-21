@@ -11,7 +11,7 @@
 
 # New features and updates :star:
 
-11/20/2023: **Subcortical structures** 🐒: \
+11/20/2023: **Subcortical structures** 🐒 \
 nBEST now can provide the segmentation of subcortical structures for macaques. See the details and instructions [here](Subcortical.md).
 
 
