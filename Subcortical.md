@@ -4,8 +4,7 @@ Now this beta version only supports Macaque species, which have been validated i
 All the models and scripts have been updated in nBEST-1.3. 
 
 Overall the subcortical structures were delineated into bilaterally symmetric 12 classes 
-(each hemisphere includes the \
-**thalamus, caudate, putamen, pallidum, hippocampus, and amygdala**).
+(each hemisphere includes the **thalamus, caudate, putamen, pallidum, hippocampus, and amygdala**).
 
 <div align=center><img width="786" height="310" src="https://github.com/TaoZhong11/nBEST/blob/main/subcortical_example.jpg"/></div>
 
