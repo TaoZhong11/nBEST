@@ -10,9 +10,11 @@
 <hr />
 
 # New features and updates :star:
+12/7/2023: **Subcortical segmentation now only requires T1w!** 🐒 \
+Now using the complete nBEST pipeline to process raw T1w images, the series of labels generated will include subcortical structures in the ```brain_subcortical``` folder. Currently only works on macaque and has not been verified on other species.
 
-11/20/2023: **Subcortical structures** 🐒 \
-nBEST now can provide the segmentation of subcortical structures for macaques. See the details and instructions [here](Subcortical.md).
+11/20/2023: **Subcortical structures based on T1w and T2w images** 🐒 \
+nBEST now can provide the segmentation of subcortical structures for macaques, requiring both T1w and T2w images as input. See the details and instructions [here](Subcortical.md).
 
 
 
@@ -114,6 +116,7 @@ Upon completion of the processing, all resulting outputs will be generated and s
 * ```brain_cerebrum/```: The cerebrum (remove cerebellum and brainstem from brain image) image.
 * ```brain_cerebrum_mask/```: The cerebrum mask of raw image.
 * ```brain_tissue/```: The cerebrum tissue segmentation.
+* ```brain_subcortical/```: The subcortical segmentation.
 
 # Feedback
 We are committed to continuous improvement and value your feedback. To help us enhance our processes, we kindly request you evaluate the processing results by downloading and completing ```nBEST_evaluate.xlsx```. The results are categorized into three levels: Good, Fair, and Poor. Detailed descriptions for each level are provided within the table. Your insights are crucial in helping us and we await your valuable feedback.
