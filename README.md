@@ -11,7 +11,7 @@
 
 # New features and updates :star:
 12/7/2023: **Subcortical segmentation now only requires T1w!** 🐒 \
-Now using the complete nBEST pipeline to process raw T1w images, the series of labels generated will include subcortical structures in the ```brain_subcortical``` folder. Currently only works on macaque and has not been verified on other species.
+Now using the nBEST pipeline to process raw T1w images, the generated labels will include subcortical structures in the ```brain_subcortical``` folder. Currently only works on macaque and has not been verified on other species.
 
 11/20/2023: **Subcortical structures based on T1w and T2w images** 🐒 \
 nBEST now can provide the segmentation of subcortical structures for macaques, requiring both T1w and T2w images as input. See the details and instructions [here](Subcortical.md).
