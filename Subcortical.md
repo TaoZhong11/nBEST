@@ -5,7 +5,7 @@ All the models and scripts have been updated in nBEST-1.3.
 
 Overall the subcortical structures were delineated into 6 classes, including **thalamus, caudate, putamen, pallidum, hippocampus, and amygdala**.
 
-<div align=center><img width="786" height="310" src="https://github.com/TaoZhong11/nBEST/blob/main/subcortical_example.jpg"/></div>
+<div align=center><img width="820" height="417" src="https://github.com/TaoZhong11/nBEST/blob/main/visual_result.png"/></div>
 
 
 ## Run the pipeline
