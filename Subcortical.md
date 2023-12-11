@@ -1,7 +1,7 @@
-# Using nBEST to obtain the segmentation of subcortical structures
-nBEST requires a pair of aligned T1w and T2w MRIs to achieve this process.
+# Using T1w and T2w MRI to obtain the segmentation of subcortical structures
+We require a pair of aligned T1w and T2w MRIs to achieve this process.
 Now this beta version only supports Macaque species, which have been validated in both cynomolgus and rhesus.
-All the models and scripts have been updated in nBEST-1.3. 
+
 
 Overall the subcortical structures were delineated into 6 classes, including **thalamus, caudate, putamen, pallidum, hippocampus, and amygdala**.
 
