@@ -8,7 +8,7 @@ Overall the subcortical structures were delineated into 6 classes, including **t
 <div align=center><img width="820" height="417" src="https://github.com/TaoZhong11/nBEST/blob/main/visual_result.png"/></div>
 
 
-## Run the pipeline
+## How to run
 ### Demo ###
 Some examples from the UNC-Wisconsin database have been provided in ```demo/T1w_T2w_img```. Run the demo and see results in ```demo/``` by a new terminal:
 ```
