@@ -1,6 +1,6 @@
-# Considering that most macaque MRI samples usually contain T1w but not necessarily T2w, 
-the model disclosed this time supports inputting only T1w, and then generates corresponding SDM, subcortical region, and six types of subcortical fine structures
-(**thalamus, caudate, putamen, pallidum, hippocampus, and amygdala**).
+# A subcortical segmentation tool based on anatomy attentional fusion network for developing macaques
+
+Considering that most macaque MRI samples usually contain T1w but not necessarily T2w, the model disclosed this time supports inputting only T1w, and then generates corresponding SDM, subcortical region, and six types of subcortical fine structures(**thalamus, caudate, putamen, pallidum, hippocampus, and amygdala**).
 
 <div align=center><img width="820" height="417" src="https://github.com/TaoZhong11/nBEST/blob/main/visual_result.png"/></div>
 
