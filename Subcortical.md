@@ -9,14 +9,8 @@ Overall the subcortical structures were delineated into 6 classes, including **t
 
 
 ## How to run
-### Demo ###
-Some examples from the UNC-Wisconsin database have been provided in ```demo/T1w_T2w_img```. Run the demo and see results in ```demo/``` by a new terminal:
-```
-docker run -it --gpus=all --ipc=host wxyabc/nbest:1.3
-cd demo
-python nBEST_subcortical.py -skip_be
-```
-### Try your own data ###
+
+### Try your data ###
 Create a directory, e.g., named ```Macaque_testing_scans```, which will be mounted to the container. The T1w and T2w scans that need to be processed should be in ```Macaque_testing_scans/T1w_T2w_img/xxxxx_0000.nii.gz```(T1w) and ```xxxxx_0001.nii.gz```(T2w). 
 Run by a new terminal:
 ```
