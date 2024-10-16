@@ -123,6 +123,35 @@ We are committed to continuous improvement and value your feedback. To help us e
 
 Additionally, we welcome the sharing of any brain MRI data from NHPs to continuously update our toolbox. We will strictly adhere to the relevant data usage protocols and provide data contributors with both processed results and manual corrections, leveraging the expertise of our seasoned professionals. We look forward to connecting!
 
+# Citation
+```
+@article{zhong2021dika,
+  title={DIKA-Nets: Domain-invariant knowledge-guided attention networks for brain skull stripping of early developing macaques},
+  author={Zhong, Tao and Zhao, Fenqiang and Pei, Yuchen and Ning, Zhenyuan and Liao, Lufan and Wu, Zhengwang and Niu, Yuyu and Wang, Li and Shen, Dinggang and Zhang, Yu and others},
+  journal={NeuroImage},
+  volume={227},
+  pages={117649},
+  year={2021},
+  publisher={Elsevier}
+}
+@article{zhong2024nbest,
+  title={nBEST: Deep-learning-based non-human primates Brain Extraction and Segmentation Toolbox across ages, sites and species},
+  author={Zhong, Tao and Wu, Xueyang and Liang, Shujun and Ning, Zhenyuan and Wang, Li and Niu, Yuyu and Yang, Shihua and Kang, Zhuang and Feng, Qianjin and Li, Gang and others},
+  journal={NeuroImage},
+  pages={120652},
+  year={2024},
+  publisher={Elsevier}
+}
+@article{zhong2024brain,
+  title={A brain subcortical segmentation tool based on anatomy attentional fusion network for developing macaques},
+  author={Zhong, Tao and Wang, Ya and Xu, Xiaotong and Wu, Xueyang and Liang, Shujun and Ning, Zhenyuan and Wang, Li and Niu, Yuyu and Li, Gang and Zhang, Yu},
+  journal={Computerized Medical Imaging and Graphics},
+  pages={102404},
+  year={2024},
+  publisher={Elsevier}
+}
+```
+
 # Contacts
 For questions/bugs/feedback, please contact:
 
