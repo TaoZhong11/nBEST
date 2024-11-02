@@ -10,6 +10,8 @@
 <hr />
 
 # New features and updates :star:
+11/1/2024: Hey everyone! Our Docker downloads just broke **200**! That's awesome! Big thanks to all! See (https://hub.docker.com/r/wxyabc/nbest).
+
 12/7/2023: **Subcortical segmentation now only requires T1w!** 🐒 \
 Now using the nBEST pipeline to process raw T1w images, the generated labels will include subcortical structures in the ```brain_subcortical``` folder. Currently only works on macaque and has not been verified on other species.
 
