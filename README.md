@@ -158,6 +158,7 @@ Additionally, we welcome the sharing of any brain MRI data from NHPs to continuo
 For questions/bugs/feedback, please contact:
 
 Tao Zhong, Ph.D., taozh2315@gmail.com\
+Yu Zhang, Ph.D., yuzhang@smu.edu.cn\
 School of Biomedical Engineering\
 Southern Medical University, China
 
